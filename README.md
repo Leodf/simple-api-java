@@ -24,4 +24,4 @@ http://localhost:8080/swagger-ui/index.html
 
 ![](/assets/images/swagger.png)
 
-Integrando com o Azure Microsoft com o login da Fiap
+Integrando com o Azure Microsoft

@@ -1,0 +1,19 @@
+on: push
+
+jobs:
+  job1-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Imprimir uma mensagem
+        run: echo "Hello, World!"
+  job2-goodbye:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step 1 - Sequencia de instruções
+        run: |
+          echo "Iniciando o processo..."
+          echo "Processo em andamento..."
+          echo "Processo concluído!"
+          ls
+      - name: Step 2 - Imprimir mensagem
+        run: echo "Goodbye, World!"

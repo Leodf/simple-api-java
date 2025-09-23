@@ -24,6 +24,6 @@ jobs:
 
       - name: Executar scripts
         run: |
-          git branche
+          git branch
           java -version
           mvn clean package
